@@ -11,8 +11,8 @@ body {
 
 /* Chat container */
 .chat-container {
-    width: 500px; /* Increased size */
-    height: 500px; /* Increased size */
+    width: 500px;
+    height: 500px;
     background: #111;
     border-radius: 10px;
     padding: 20px;
@@ -38,19 +38,19 @@ body {
     padding: 8px 12px;
     border-radius: 8px;
     max-width: 80%;
-    font-size: 13px; /* Smaller text */
+    font-size: 13px;
 }
 
 /* User messages */
 .message.user {
-    background-color: #1E90FF; /* Light blue */
+    background-color: #1E90FF;
     color: white;
     align-self: flex-end;
 }
 
 /* Bot messages */
 .message.bot {
-    background-color: #FFD700; /* Light yellow */
+    background-color: #FFD700;
     color: black;
     align-self: flex-start;
 }

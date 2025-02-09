@@ -32,6 +32,6 @@ document.addEventListener("DOMContentLoaded", function () {
         messageDiv.classList.add("message", senderClass);
         messageDiv.innerHTML = `<strong>${sender}:</strong> ${text}`;
         chatBox.appendChild(messageDiv);
-        chatBox.scrollTop = chatBox.scrollHeight; // Auto-scroll
+        chatBox.scrollTop = chatBox.scrollHeight;
     }
 });
